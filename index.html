@@ -46,6 +46,8 @@
             padding: 40px;
             position: relative;
             overflow: hidden;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
         }
 
         .header::before {
@@ -330,20 +332,19 @@
             <div class="title">软件开发工程师</div>
         </div>
         <div class="contact-info">
+            <div class="personal-item"><i class="fas fa-user"></i> 性别：男</div>
+            <div class="personal-item"><i class="fas fa-birthday-cake"></i> 年龄：24岁</div>
             <div class="contact-item"><i class="fas fa-envelope"></i> weitezhu@163.com</div>
             <div class="contact-item"><i class="fas fa-phone"></i> 176-2198-6926</div>
             <div class="contact-item"><i class="fas fa-map-marker-alt"></i> 上海市</div>
-<!--            <div class="contact-item"><i class="fas fa-map-marker-alt"></i> 男</div>-->
-<!--            <div class="contact-item"><i class="fas fa-link"></i>-->
-<!--                <a href="https://xxxx.github.io" target="_blank" style="color: white; text-decoration: none;">个人技术博客</a>-->
-<!--            </div>-->
+            <div class="contact-item"><i class="fas fa-link"></i>https://weiitezhu.github.io</div>
         </div>
     </div>
 
     <div class="section">
         <h2 class="section-title"><i class="fas fa-user"></i> 个人简介</h2>
         <p style="line-height: 1.8;">
-            专注于EDA软件开发的高级C++工程师，拥有3年专业经验。擅长高性能图形渲染、算法优化和系统架构设计，在提升软件性能和用户体验方面有出色成果。精通Qt框架、几何算法和渲染技术，能够解决复杂技术挑战并交付高质量解决方案。注重代码质量和团队协作，致力于开发高效、可维护的软件系统。
+            专注于软件开发的高级C++工程师，拥有3年专业经验。擅长高性能图形渲染、算法优化和系统架构设计，在提升软件性能和用户体验方面有出色成果。精通Qt框架、几何算法和渲染技术，能够解决复杂技术挑战并交付高质量解决方案。注重代码质量和团队协作，致力于开发高效、可维护的软件系统。
         </p>
     </div>
 
@@ -357,19 +358,20 @@
             <div class="item-subtitle">上海弘快科技 | EDA软件领域</div>
             <ul>
                 <li>
-                    <strong>设计、开发与优化核心渲染引擎功能</strong>，专注于高性能图形显示与交互（多边形填充、路径绘制、大规模数据实时渲染），提升复杂场景渲染流畅度<span class="achievement-badge">帧率提升40%</span>
+                    <strong>设计、开发与优化核心渲染引擎功能</strong>，专注于高性能图形显示与交互（多边形填充、路径绘制、大规模数据实时渲染），提升复杂场景渲染流畅度
                 </li>
                 <li>
                     <strong>主导关键软件模块功能设计与实现</strong>，运用面向对象设计原则与设计模式，构建高内聚、低耦合代码架构，提升系统可维护性
                 </li>
                 <li>
-                    <strong>持续优化核心算法与关键路径性能</strong>（走线算法、数据处理逻辑），通过算法改进与多线程技术应用，关键操作性能提升<span class="achievement-badge">平均提升35%</span>
+                    <strong>持续优化核心算法与关键路径性能</strong>（走线算法、数据处理逻辑），通过算法改进与多线程技术应用，关键操作性能提升
                 </li>
                 <li>
                     <strong>主导功能模块重构与迭代升级</strong>，识别技术债务，改进架构设计，提升代码质量与运行效率
                 </li>
                 <li>
-                    <strong>建立并执行Code Review流程</strong>，制定编码规范，确保代码质量与可读性，缺陷率降低<span class="achievement-badge">25%</span>
+                    <strong>建立并执行Code Review流程</strong>，制定编码规范，确保代码质量与可读性，缺陷率降低<span
+                        class="achievement-badge">25%</span>
                 </li>
             </ul>
         </div>
@@ -442,13 +444,16 @@
             <div class="item-subtitle">核心贡献：算法优化、性能提升、架构改进</div>
             <ul>
                 <li>
-                    <strong>重构核心布线算法</strong>，引入启发式搜索与拥塞预测模型，布线成功率提升至<span class="achievement-badge">90%+</span>，布线时间缩短<span class="achievement-badge">30%</span>（对标竞品）
+                    <strong>重构核心布线算法</strong>，引入启发式搜索与拥塞预测模型，布线成功率提升至<span
+                        class="achievement-badge">90%+</span>，布线时间缩短<span class="achievement-badge">30%</span>（对标竞品）
                 </li>
                 <li>
-                    <strong>重构网络实时更新逻辑</strong>，优化数据依赖与增量更新机制，用户交互响应速度提升，复杂设计操作延迟降低<span class="achievement-badge">80%</span>
+                    <strong>重构网络实时更新逻辑</strong>，优化数据依赖与增量更新机制，用户交互响应速度提升，复杂设计操作延迟降低<span
+                        class="achievement-badge">80%</span>
                 </li>
                 <li>
-                    <strong>优化大规模设计文件处理逻辑</strong>，应用高效数据结构与缓存机制，文件加载与保存效率提升<span class="achievement-badge">80%</span>，内存占用降低<span class="achievement-badge">45%</span>
+                    <strong>优化大规模设计文件处理逻辑</strong>，应用高效数据结构与缓存机制，文件加载与保存效率提升<span
+                        class="achievement-badge">80%</span>，内存占用降低<span class="achievement-badge">45%</span>
                 </li>
             </ul>
         </div>
@@ -464,7 +469,8 @@
                     <strong>主导界面模块优化与功能实现</strong>，重新设计封装设计工作流，用户操作步骤减少
                 </li>
                 <li>
-                    <strong>重构业务对象到图形数据转换引擎</strong>，应用批量处理与缓存机制，复杂封装场景渲染性能提升<span class="achievement-badge">60%</span>
+                    <strong>重构业务对象到图形数据转换引擎</strong>，应用批量处理与缓存机制，复杂封装场景渲染性能提升<span
+                        class="achievement-badge">60%</span>
                 </li>
             </ul>
         </div>
